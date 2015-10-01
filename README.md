@@ -10,11 +10,13 @@ Ciclos de vida de las variables
 – Se inicializan por defecto si no se hace de modo explícito:
 0 para números, "false" para booleano, "null" para objetos.
 – Se destruyen cuando el recolector de basura de Java no encuentra referencias activas para el objeto.
+
 • Variables estáticas (o de clase):
 – Se crean cuando la clase se usa por primera vez.
 – Se inicializan por defecto si no se hace de modo explícito:
 0 para números, "false" para booleano, "null" para objetos
 – Suelen existir para el resto del programa (salvo que no esté cargado).
+
 • Variables locales (o de bloque):
 – Creadas en la sentencia en la que están definidas.
 – No se inicializan por defecto. Contienen datos imprevisibles.
